@@ -2,4 +2,4 @@
 Game simples de pedra, papel e tesoura
 
 ### Site do game:
-> http://polux.42web.io/pedrapapeltesoura/
+> polux2.epizy.com/ppt/
