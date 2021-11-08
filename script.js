@@ -23,3 +23,18 @@ let item = Array.prototype.sample = function(){
 } 
 
 let player2 = bag.sample();
+
+
+//Pedra
+
+function rock () {
+      if (player2 == "Pedra") {
+        document.write("Empate. Você é bom hein..")
+      }
+      else if (player2 == "Papel") {
+        document.write("Papel envolve a Pedra. O vencedor é " + robot + "É.. Parece que eu venci hehe")
+      }
+      else if (player2 == "Tesoura") {
+        document.write("Pedra quebra a Tesoura. O vencedor é " + name + ". Parabéns!!!")
+      }
+}
