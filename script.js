@@ -38,3 +38,18 @@ function rock () {
         document.write("Pedra quebra a Tesoura. O vencedor é " + name + ". Parabéns!!!")
       }
 }
+
+
+//Tesoura
+
+function scis () {
+      if (player2 == "Pedra") {
+        document.write("Pedra quebra a Tesoura. O vencedor é " + robot + ". É.. Parece que eu venci hehe")
+      }
+      else if (player2 == "Papel") {
+        document.write("Tesoura corta o Papel. O vencedor é " + name + ". Parabéns!!!")
+      }
+      else if (player2 == "Tesoura") {
+        document.write("Empate. Você é bom hein..")
+      }
+}
