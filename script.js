@@ -53,3 +53,17 @@ function scis () {
         document.write("Empate. Você é bom hein..")
       }
 }
+
+//Papel
+
+function paper () {
+      if (player2 == "Pedra") {
+        document.write("Papel envolve a Pedra. O vencedor é " + name + ". Parabéns!!!")
+      }
+      else if (player2 == "Papel") {
+        document.write("Empate. Você é bom hein..")
+      }
+      else if (player2 == "Tesoura") {
+        document.write("Tesoura corta o Papel. O vencedor é " + robot + ". É.. Parece que eu venci hehe")
+      }
+}
