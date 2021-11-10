@@ -54,6 +54,7 @@ function scis () {
       }
 }
 
+
 //Papel
 
 function paper () {
@@ -67,3 +68,18 @@ function paper () {
         document.write("Tesoura corta o Papel. O vencedor é " + robot + ". É.. Parece que eu venci hehe")
       }
 }
+
+
+//Controle
+
+let pedra = document.querySelector('#rock2');
+let tesoura = document.querySelector('#scis2');
+let papel = document.querySelector('#paper2')
+
+function load() {
+pedra.addEventListener("click", rock, false)
+tesoura.addEventListener("click", scis, false)
+papel.addEventListener("click", paper, false)
+}
+
+document.addEventListener("DOMContentLoaded", load, false);
